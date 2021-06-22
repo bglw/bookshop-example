@@ -1,0 +1,28 @@
+title: Jekyll AC Testing Template
+email: liam@bigelow.io
+
+plugins:
+  - jekyll-bookshop
+  - bookshop-array-structures
+  - jekyll-postcss
+
+# Multiple bookshops can be used on one website,
+# or different production / staging locations.
+bookshop_locations:
+  - ../ac-components
+
+exclude:
+  - postcss.config.js
+
+# The rest of this array structure will be
+# populated by the bookshop-array-structures plugin.
+_array_structures:
+  content_blocks:
+    style: modal
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default

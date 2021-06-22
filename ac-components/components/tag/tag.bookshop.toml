@@ -1,0 +1,9 @@
+[component]
+array_structures = []
+label = "Tag"
+description = ""
+icon = "loyalty"
+tags = []
+
+[props]
+tag_name = "Bookshop"

@@ -1,0 +1,8 @@
+<div class="c-cta">
+    <div class="c-cta__content">
+        {{ include.content_html }}
+    </div>
+    {% for button in include.buttons %}
+        {% bookshop button bind=button %}
+    {% endfor %}
+</div>

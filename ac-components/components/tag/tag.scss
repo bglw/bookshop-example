@@ -1,0 +1,13 @@
+.c-tag {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--s-8-10);
+    font-weight: bold;
+    border: var(--border);
+    border-left-width: var(--s-8-12);
+    border-left-style: solid;
+    border-radius: var(--radius);
+    padding: 0 var(--s-5-7);
+    height: var(--s-18-22);
+}

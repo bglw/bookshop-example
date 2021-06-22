@@ -1,0 +1,8 @@
+<div class="c-image c-image--{{include.layout | slugify}}">
+    <div class="c-image__image-container">
+        <img class="c-image__image" src="{{ include.image }}" alt="{{ include.image_alt }}">
+    </div>
+    <div class="c-image__content">
+        {{ include.content_html }}
+    </div>
+</div>

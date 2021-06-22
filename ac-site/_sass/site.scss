@@ -1,0 +1,12 @@
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+}

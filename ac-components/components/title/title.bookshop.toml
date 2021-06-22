@@ -1,0 +1,15 @@
+[component]
+array_structures = [ "content_blocks" ]
+label = "Title"
+description = "Generic title heading"
+icon = "title"
+tags = ["Text", "Tags"]
+
+[props]
+title = "AC Testing Template"
+
+[[props.tags]]
+tag_name = "Bookshop"
+
+[[props.tags]]
+tag_name = "Components"

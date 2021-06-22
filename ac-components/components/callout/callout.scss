@@ -1,0 +1,28 @@
+.c-callout {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    width: var(--column);
+    max-width: var(--column-max);
+    margin: 0 auto;
+    padding: var(--s-12-16) var(--s-50-75);
+    border: var(--border);
+    border-radius: var(--radius);
+    text-align: center;
+
+    &__content {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 0;
+        left: var(--s-10-17);
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

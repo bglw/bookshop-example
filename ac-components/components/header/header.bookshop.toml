@@ -1,0 +1,10 @@
+[component]
+array_structures = [ "content_blocks" ]
+label = "Header"
+description = "Top page header"
+icon = "menu_open"
+tags = ["Structure"]
+
+[props]
+logo_image.default = "/assets/logo.svg"
+logo_alt.default = "AC Testing Logo"

@@ -1,0 +1,44 @@
+.c-image { $c: &;
+    display: flex;
+    box-sizing: border-box;
+    width: var(--column);
+    max-width: var(--column-max);
+    margin: 0 auto;
+    border: var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    text-align: center;
+
+    &--image-right {
+        flex-direction: row-reverse;
+
+        #{$c}__content {
+            text-align: left;
+            padding: 0 var(--s-12-20) 0 var(--s-20-40);
+        }
+    }
+
+    &__content {
+        padding: 0 var(--s-20-40) 0 var(--s-12-20);
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+
+    &__image-container {
+        position: relative;
+        width: var(--s-100-150);
+        min-width: var(--s-100-150);
+        min-height: var(--s-100-150);
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: var(--s-100-150);
+        height: 100%;
+        object-fit: cover;
+    }
+}

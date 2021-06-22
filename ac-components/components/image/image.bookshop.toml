@@ -1,0 +1,12 @@
+[component]
+array_structures = [ "content_blocks" ]
+label = "Image"
+description = "Generic image with content"
+icon = "art_track"
+tags = ["Text"]
+
+[props]
+content_html = "<p>This is a <b>testing template</b> made with the <a href='https://github.com/cloudcannon/bookshop' target='_blank'>bookshop component system.</a></p>"
+image = "https://place-puppy.com/500x500"
+image_alt = "A lovely puppy"
+layout.select = ["Image Left", "Image Right"]

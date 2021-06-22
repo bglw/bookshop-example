@@ -1,0 +1,10 @@
+[component]
+array_structures = [ "content_blocks" ]
+label = "Callout"
+description = "Generic callout component"
+icon = "info"
+tags = ["Text"]
+
+[props]
+content_text = "This is a testing template"
+icon.select = ["info", "help", "error", "warning", "nature_people"]

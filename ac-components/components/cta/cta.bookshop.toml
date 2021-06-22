@@ -1,0 +1,21 @@
+[component]
+array_structures = [ "content_blocks" ]
+label = "CTA"
+description = "Generic call to action"
+icon = "smart_button"
+tags = ["Text", "Links"]
+
+[props]
+content_html = "<p>This is a <b>testing template</b> made with the <a href='https://github.com/cloudcannon/bookshop' target='_blank'>bookshop component system.</a></p>"
+
+[[props.buttons]]
+label = "GitHub"
+type.select = ["Standard", "Outline"]
+link_url = "https://github.com/bglw/bookshop-example"
+open_in_new_tab = true
+
+[[props.buttons]]
+label = "Bookshop"
+type.select = ["Outline", "Standard"]
+link_url = "https://github.com/cloudcannon/bookshop"
+open_in_new_tab = true

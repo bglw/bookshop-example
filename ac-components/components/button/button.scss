@@ -1,0 +1,20 @@
+.c-button {
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 44px;
+    padding: 0 var(--s-16-22);
+    border: 0;
+    border-radius: var(--radius);
+    background-color: var(--foreground);
+    color: var(--background);
+    text-decoration: none;
+
+    &--outline {
+        background-color: transparent;
+        color: var(--foreground);
+        border: var(--border);
+    }
+}

@@ -1,0 +1,8 @@
+<div class="c-title">
+    <h1 class="c-title__title">
+        {{ include.title }}
+    </h1>
+    {% for tag in include.tags %}
+        {% bookshop tag bind=tag %}
+    {% endfor %}
+</div>
