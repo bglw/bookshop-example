@@ -1,3 +1,4 @@
+{% if include.content_blocks.size > 0 %}
 <div class="c-page theme-{{ include.page_theme | slugify | default: 'dark' }}">
 
 {% for block in include.content_blocks %}
@@ -5,3 +6,4 @@
 {% endfor %}
 
 </div>
+{% endif %}

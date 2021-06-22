@@ -22,15 +22,13 @@
         This element will get picked up by the bookshop dev renderer if present,
         on production this does nothing.
     -->
-    {% if page.content_blocks.size > 0 %}
-        <div data-bookshop-live="page" data-bookshop-props="page">
-            <!-- 
-                Bookshop components are accessed using the bookshop tag, 
-                using the same syntax as the standard Jekyll include tag.
-            -->
-            {% bookshop page content_blocks=page.content_blocks page_theme=page.page_theme %}
-        </div>
-    {% endif %}
+    <div data-bookshop-live="page" data-bookshop-props="page">
+        <!-- 
+            Bookshop components are accessed using the bookshop tag, 
+            using the same syntax as the standard Jekyll include tag.
+        -->
+        {% bookshop page content_blocks=page.content_blocks page_theme=page.page_theme %}
+    </div>
 
     <!--
         bookshop javascript loads the renderer for the local component library,
