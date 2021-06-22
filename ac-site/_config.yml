@@ -20,6 +20,12 @@ _array_structures:
   content_blocks:
     style: modal
 
+_select_data:
+  page_themes:
+    - Dark
+    - Light
+    - Soft
+
 defaults:
   -
     scope:
