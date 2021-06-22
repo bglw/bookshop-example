@@ -4,7 +4,7 @@ email: liam@bigelow.io
 plugins:
   - jekyll-bookshop
   - bookshop-array-structures
-  - jekyll-postcss
+  - jekyll-postcss-v2
 
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
@@ -13,6 +13,7 @@ bookshop_locations:
 
 exclude:
   - postcss.config.js
+  - node_modules
 
 # The rest of this array structure will be
 # populated by the bookshop-array-structures plugin.
