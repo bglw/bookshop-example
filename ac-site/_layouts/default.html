@@ -38,9 +38,9 @@
     -->
     {% unless jekyll.environment == "production" %}
         {% if jekyll.environment == "staging" %}
-            <script src="http://localhost:6061/bookshop.js"></script>
-        {% else %}
             <script src="/assets/js/bookshop-live.js"></script>
+        {% else %}
+            <script src="http://localhost:6061/bookshop.js"></script>
         {% endif %}
     {% endunless %}
 </body>
