@@ -1,0 +1,9 @@
+[component]
+array_structures = [ "content_blocks" ]
+label = "Collection List"
+description = "List of Jekyll collection items"
+icon = "view_list"
+tags = ["Data"]
+
+[props]
+collection.default = "items"

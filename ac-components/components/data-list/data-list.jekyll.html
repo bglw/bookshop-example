@@ -1,0 +1,8 @@
+<div class="c-data-list">
+    <ul>
+    {% local data = site.data[include.data_file] %}
+    {% for row in data %}
+        <li>{{ row.text }}</li>
+    {% endfor %}
+    </ul>
+</div>

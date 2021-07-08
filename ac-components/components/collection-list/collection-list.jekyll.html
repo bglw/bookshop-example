@@ -1,0 +1,11 @@
+<div class="c-collection-list">
+    <ul>
+    {% local jekyll_collection = site[include.collection] %}
+    {% for collection_item in jekyll_collection %}
+        <li>
+            <img src="{{ collection_item.image }}">
+            <span style="--color: {{ collection_item.color }};">{{ collection_item.title }}</span>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

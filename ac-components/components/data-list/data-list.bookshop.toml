@@ -1,0 +1,9 @@
+[component]
+array_structures = [ "content_blocks" ]
+label = "Data List"
+description = "List populated from Jekyll data"
+icon = "format_list_numbered"
+tags = ["Data"]
+
+[props]
+data_file.default = "labels"

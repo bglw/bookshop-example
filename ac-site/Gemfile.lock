@@ -10,7 +10,7 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    bookshop-array-structures (2.0.0.pre.alpha.14)
+    bookshop-array-structures (2.0.0.pre.alpha.17)
       dry-inflector (>= 0.1, < 1.0)
       jekyll (>= 3.7, < 5.0)
       toml-rb (>= 2.0, < 3.0)
@@ -42,8 +42,10 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-bookshop (2.0.0.pre.alpha.14)
+    jekyll-bookshop (2.0.0.pre.alpha.17)
       dry-inflector (>= 0.1, < 1.0)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-local-assign (1.0.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-postcss-v2 (1.0.1)
     jekyll-sass-converter (2.1.0)
@@ -80,6 +82,7 @@ PLATFORMS
 DEPENDENCIES
   bookshop-array-structures (>= 2.0.0.pre.alpha)
   jekyll-bookshop (>= 2.0.0.pre.alpha)
+  jekyll-local-assign
   jekyll-postcss-v2
   jekyll-watch!
 

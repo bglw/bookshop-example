@@ -5,6 +5,7 @@ plugins:
   - jekyll-bookshop
   - bookshop-array-structures
   - jekyll-postcss-v2
+  - jekyll-local-assign
 
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
@@ -33,3 +34,28 @@ defaults:
       path: ""
     values:
       layout: default
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      color: "#DADB0D"
+  -
+    scope:
+      type: items
+      path: _items
+    values:
+      image: "https://place-puppy.com/50x50"
+
+collections:
+  items:
+    name: 'Items'
+    _icon: 'nature_people'
+    _singular_name: 'Item'
+    output: false
+  posts:
+    name: 'Posts'
+    _icon: 'nature_people'
+    _singular_name: 'Post'
+    output: true
+    permalink: /post/:slug/
