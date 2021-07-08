@@ -6,7 +6,7 @@ icon = "title"
 tags = ["Text", "Tags"]
 
 [props]
-title = "AC Testing Template"
+title = "AC Testing Template" #: Main page hero
 
 [[props.tags]]
 tag_name = "Bookshop"

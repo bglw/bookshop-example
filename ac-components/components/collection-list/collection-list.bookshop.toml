@@ -6,4 +6,4 @@ icon = "view_list"
 tags = ["Data"]
 
 [props]
-collection.default = "items"
+collection.default = "items" #: Key of a Jekyll collection

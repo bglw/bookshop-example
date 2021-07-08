@@ -7,4 +7,4 @@ tags = ["Text"]
 
 [props]
 content_text = "This is a testing template"
-icon.select = ["info", "help", "error", "warning", "nature_people"]
+icon.select = ["info", "help", "error", "warning", "nature_people"] #: Pulled from Google's Material Icons
