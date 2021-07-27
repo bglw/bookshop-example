@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/main.css">
     <title>Jekyll AC Testing Template</title>
-    {% bookshop_site_data %}
 </head>
 <body>
     {{ content }}
@@ -32,15 +31,10 @@
     </div>
 
     <!--
-        bookshop javascript loads the renderer for the local component library,
-        as well as the live component for CloudCannon live previews.
+        bookshop javascript loads the live component for CloudCannon live previews.
     -->
-    {% unless jekyll.environment == "production" %}
-        {% if jekyll.environment == "staging" %}
-            <script src="/assets/js/bookshop-live.js"></script>
-        {% else %}
-            <script src="http://localhost:6061/bookshop.js"></script>
-        {% endif %}
-    {% endunless %}
+    {% if jekyll.environment == "staging" %}
+        <script src="/assets/js/bookshop-live.js"></script>
+    {% endif %}
 </body>
 </html>

@@ -3,7 +3,7 @@ email: liam@bigelow.io
 
 plugins:
   - jekyll-bookshop
-  - bookshop-array-structures
+  - cloudcannon-jekyll-bookshop
   - jekyll-postcss-v2
   - jekyll-local-assign
 
