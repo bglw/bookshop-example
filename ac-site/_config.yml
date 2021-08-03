@@ -16,6 +16,9 @@ exclude:
   - postcss.config.js
   - node_modules
 
+include:
+  - _cloudcannon
+
 # The rest of this array structure will be
 # populated by the bookshop-array-structures plugin.
 _array_structures:

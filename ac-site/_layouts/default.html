@@ -31,10 +31,8 @@
     </div>
 
     <!--
-        bookshop javascript loads the live component for CloudCannon live previews.
+        load the live component for CloudCannon live previews.
     -->
-    {% if jekyll.environment == "staging" %}
-        <script src="/assets/js/bookshop-live.js"></script>
-    {% endif %}
+    {% bookshop_live _cloudcannon/bookshop-live.js %}
 </body>
 </html>

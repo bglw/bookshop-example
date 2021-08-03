@@ -4,7 +4,7 @@
   "description": "An example testing template for bookshop and CloudCannon",
   "scripts": {
     "bookshop-dev": "bookshop-browser -p 6061 -b ./ac-components",
-    "bookshop-live": "bookshop-live -b ./ac-components -o ac-site/assets/js/bookshop-live.js",
+    "bookshop-live": "bookshop-live -b ./ac-components -o ac-site/_cloudcannon/bookshop-live.js",
     "jekyll": "BUNDLE_GEMFILE=ac-site/Gemfile bundle exec jekyll serve --source ac-site --port 6060 --trace --unpublished",
     "start": "run-p bookshop-dev jekyll",
     "install-jekyll": "BUNDLE_GEMFILE=ac-site/Gemfile bundle install",
