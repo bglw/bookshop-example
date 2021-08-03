@@ -1,0 +1,16 @@
+---
+page_tags:
+  - tag_name: bookshop
+  - tag_name: templating
+---
+
+<div class="c-page theme-dark">
+    {% bookshop header logo_image="/assets/logo.svg" logo_alt="AC Testing Template Logo" %}
+    {% bookshop title title="This page is templated directly using bookshop tags" tags=page.page_tags %}
+    <div class="block">
+        <h2>Includes</h2>
+        <p>Includes can be placed in [bookshop]/shared/jekyll and referenced directly from the site using the bookshop_include tag:</p>
+        {% bookshop_include button label="Included button" link_url="/" type="Standard" %}
+        {% bookshop_include button label="🙌 🙌 🙌 🙌" link_url="/" type="Outline" %}
+    </div>
+</div>

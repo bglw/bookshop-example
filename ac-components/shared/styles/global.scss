@@ -46,3 +46,10 @@ a {
         opacity: 0.75;
     }
 }
+
+.block {
+    box-sizing: border-box;
+    width: var(--column);
+    max-width: var(--column-max);
+    margin: 0 auto;
+}
