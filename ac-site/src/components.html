@@ -7,4 +7,8 @@ published: false
     The bookshop_browser tag loads an 
     interactive component library on your website.
 -->
-{% bookshop_browser localhost:6061/bookshop.js %}
+{% unless jekyll.environment == "production" %}
+    {% bookshop_browser localhost:6061/bookshop.js %}
+{% else %}
+    {% bookshop_browser /assets/bookshop-hosted.js %}
+{% endunless %}
