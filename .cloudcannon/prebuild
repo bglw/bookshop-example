@@ -4,5 +4,6 @@ cd ac-site
 npm install
 npm run bookshop-live
 npm run bookshop-hosted
+cd ../
 
 echo "📚 ✅ : Prebuild script finished"
