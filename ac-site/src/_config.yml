@@ -10,7 +10,7 @@ plugins:
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
 bookshop_locations:
-  - ./bad-dir
+  - ./hypothetical-other-bookshop
   - ../../ac-components
 
 exclude:
@@ -18,7 +18,7 @@ exclude:
   - node_modules
 
 include:
-  - _cloudcannon
+  - _cloudcannon # This exposes the live editing data to CloudCannon
 
 # The rest of this array structure will be
 # populated by the bookshop-array-structures plugin.

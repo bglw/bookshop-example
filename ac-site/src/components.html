@@ -8,7 +8,13 @@ published: false
     interactive component library on your website.
 -->
 {% if jekyll.environment == "production" %}
+
+    <!-- Hosted Javascript built by .cloudcannon/prebuild script -->
     {% bookshop_browser /assets/bookshop-hosted.js %}
+
 {% else %}
+
+    <!-- Local Javascript run through npm start -->
     {% bookshop_browser :6061 %}
+
 {% endif %}
